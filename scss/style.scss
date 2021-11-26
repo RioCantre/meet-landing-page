@@ -1,1 +1,9 @@
 @use 'variables';
+@use 'header';
+@use 'main';
+@use 'hero';
+
+
+body {
+    background-color: variables.$background-color;
+}
