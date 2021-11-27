@@ -1,25 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap");
 .hero {
   display: flex;
   justify-content: center;
 }
 .hero .hero-image-1 img {
-  padding-right: 4rem;
-  margin-top: 2rem;
-  margin-right: 4rem;
-  width: 400px;
+  width: 390px;
+  position: absolute;
+  top: 25%;
+  left: -2rem;
 }
 .hero .hero-image-2 img {
-  padding-left: 4rem;
-  margin-top: 2rem;
-  margin-left: 4rem;
-  width: 400px;
+  position: absolute;
+  top: 32%;
+  right: -2rem;
+  width: 390px;
 }
 .hero .hero-content {
-  width: 600px;
+  width: 590px;
+  padding: 0 rem;
+  margin: 0 rem;
   text-align: center;
 }
 .hero .hero-content h1 {
   font-size: 3.5rem;
+  color: #28283e;
+  font-weight: 900;
+}
+.hero .hero-content p {
+  line-height: 1.5rem;
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 18px;
+  color: #86869c;
+  margin: 0.6rem;
+}
+.hero .hero-content .hero-btn {
+  display: inline-flex;
+}
+.hero .hero-content .hero-btn button {
+  padding: 1.2rem;
+  border-radius: 40px;
+  border: none;
+  margin: 0.5rem;
+  cursor: pointer;
+  color: #fafafa;
+  font-weight: 900;
+}
+.hero .hero-content .hero-btn .btn-1 {
+  width: 180px;
+  background-color: #4d96a8;
+}
+.hero .hero-content .hero-btn .btn-1 span {
+  color: #90e4f9;
+}
+.hero .hero-content .hero-btn .btn-1:hover {
+  background-color: #72c1d5;
+}
+.hero .hero-content .hero-btn .btn-2 {
+  width: 140px;
+  background-color: #845eb0;
+}
+.hero .hero-content .hero-btn .btn-2:hover {
+  background-color: #b18ddd;
 }
 
 /*# sourceMappingURL=hero.css.map */

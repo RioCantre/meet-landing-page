@@ -1,31 +1,79 @@
+@use 'variables';
 
 .hero {
     display: flex;
     justify-content: center;
 
     .hero-image-1 img {
-        padding-right: 4rem;
-        margin-top: 2rem;
-        margin-right: 4rem;
-        width: 400px;
+        width: 390px;
+        position: absolute;
+        top: 25%;
+        left: -2rem;
 
     }
 
     .hero-image-2 img {
-        padding-left: 4rem;
-        margin-top: 2rem;
-        margin-left: 4rem;
-        width: 400px;
+        position: absolute;
+        top: 32%;
+        right: -2rem;
+        width: 390px;
     }
 
     .hero-content {
-        width: 600px;
-        // padding: 3rem 2rem;
-        // margin: 0 3rem;
+        width: 590px;
+        padding: 0 rem;
+        margin: 0 rem;
         text-align: center;
+
         h1 {
             font-size: 3.5rem;
+            color: variables.$font-color-dark;
+            font-weight: variables.$font-weight-1;
+        }
 
+        p {
+            line-height: 1.5rem;
+            padding: 1rem;
+            font-weight: variables.$font-weight-2;
+            font-size: 18px;
+            color: variables.$font-color-light;
+            margin: 0.6rem;
+        }
+
+        .hero-btn {
+            display: inline-flex;
+
+            button {
+                padding: 1.2rem;
+                border-radius: 40px;
+                border: none;
+                margin: 0.5rem;
+                cursor: pointer;
+                color: variables.$background-color;
+                font-weight: 900;
+            }
+
+            .btn-1 {
+                width: 180px;
+                background-color: variables.$primary-color;
+
+                span {
+                    color: variables.$primary-color-light;
+                }
+            }
+
+            .btn-1:hover {
+                background-color: variables.$primary-color-hover;
+            }
+
+            .btn-2 {
+                width: 140px;
+                background-color: variables.$secondary-color;
+            }
+
+            .btn-2:hover {
+                background-color: variables.$secondary-color-hover;
+            }
         }
     }
 }
