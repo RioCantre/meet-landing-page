@@ -2,4 +2,30 @@
 .hero {
     display: flex;
     justify-content: center;
+
+    .hero-image-1 img {
+        padding-right: 4rem;
+        margin-top: 2rem;
+        margin-right: 4rem;
+        width: 400px;
+
+    }
+
+    .hero-image-2 img {
+        padding-left: 4rem;
+        margin-top: 2rem;
+        margin-left: 4rem;
+        width: 400px;
+    }
+
+    .hero-content {
+        width: 600px;
+        // padding: 3rem 2rem;
+        // margin: 0 3rem;
+        text-align: center;
+        h1 {
+            font-size: 3.5rem;
+
+        }
+    }
 }

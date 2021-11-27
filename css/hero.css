@@ -2,5 +2,24 @@
   display: flex;
   justify-content: center;
 }
+.hero .hero-image-1 img {
+  padding-right: 4rem;
+  margin-top: 2rem;
+  margin-right: 4rem;
+  width: 400px;
+}
+.hero .hero-image-2 img {
+  padding-left: 4rem;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  width: 400px;
+}
+.hero .hero-content {
+  width: 600px;
+  text-align: center;
+}
+.hero .hero-content h1 {
+  font-size: 3.5rem;
+}
 
 /*# sourceMappingURL=hero.css.map */

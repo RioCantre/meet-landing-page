@@ -5,13 +5,70 @@ header img {
   padding: 3.5rem;
 }
 
+main {
+  width: 1000px;
+  margin: auto;
+}
+main .main-images img {
+  display: inline-flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 6px;
+  margin: 1rem;
+}
+main .main-content {
+  text-align: center;
+}
+main .main-content p {
+  padding: 3rem 5rem;
+}
+
 .hero {
   display: flex;
   justify-content: center;
 }
+.hero .hero-image-1 img {
+  padding-right: 4rem;
+  margin-top: 2rem;
+  margin-right: 4rem;
+  width: 400px;
+}
+.hero .hero-image-2 img {
+  padding-left: 4rem;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  width: 400px;
+}
+.hero .hero-content {
+  width: 600px;
+  text-align: center;
+}
+.hero .hero-content h1 {
+  font-size: 3.5rem;
+}
+
+footer {
+  margin: auto;
+  padding: 3rem;
+}
+footer .footer-content {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
 
 body {
   background-color: #fafafa;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

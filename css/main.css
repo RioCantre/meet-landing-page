@@ -1,3 +1,21 @@
-
+main {
+  width: 1000px;
+  margin: auto;
+}
+main .main-images img {
+  display: inline-flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 6px;
+  margin: 1rem;
+}
+main .main-content {
+  text-align: center;
+}
+main .main-content p {
+  padding: 3rem 5rem;
+}
 
 /*# sourceMappingURL=main.css.map */
