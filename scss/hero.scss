@@ -29,15 +29,17 @@
             font-size: 3.5rem;
             color: variables.$font-color-dark;
             font-weight: variables.$font-weight-1;
+            font-family: variables.$main-font;
         }
 
         p {
             line-height: 1.5rem;
             padding: 1rem;
-            font-weight: variables.$font-weight-2;
+            font-weight: variables.$font-weight-3;
             font-size: 18px;
             color: variables.$font-color-light;
             margin: 0.6rem;
+            font-family: variables.$main-font;
         }
 
         .hero-btn {
