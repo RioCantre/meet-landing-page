@@ -82,46 +82,6 @@ main .main-content p {
   line-height: 26px;
   color: #86869c;
 }
-main .main-component-2 {
-  position: absolute;
-  width: 56px;
-  height: 140px;
-  left: 692px;
-  top: 1474px;
-}
-main .main-component-2 .vertical-line-2 {
-  border: 0.5px solid rgba(135, 135, 157, 0.25);
-  width: 0;
-  height: 6rem;
-  mix-blend-mode: normal;
-  opacity: 1;
-  position: absolute;
-  left: 48.21%;
-  right: 50%;
-  top: 0%;
-  bottom: 40%;
-}
-main .main-component-2 .main-btn button {
-  display: inline-flex;
-  justify-content: center;
-  margin: auto;
-  align-items: center;
-  text-align: center;
-  padding: 1.2rem;
-  box-sizing: border-box;
-  border-radius: 50px;
-  border: 1px solid rgba(135, 135, 157, 0.25);
-  background-color: #fafafa;
-  font-size: 16px;
-  font-weight: 900;
-  color: #86869c;
-  font-family: "Red Hat Display", sans-serif;
-  position: absolute;
-  width: 56px;
-  height: 56px;
-  left: 0px;
-  top: 84px;
-}
 
 .hero {
   display: flex;
@@ -192,28 +152,74 @@ main .main-component-2 .main-btn button {
 
 footer {
   margin-top: 7rem;
-  padding: 3rem 5rem;
-  background-image: url(../assets/desktop/image-footer.jpg);
-  background-size: cover;
-  background-color: #4d96a8;
+}
+footer .main-component-2 {
+  position: absolute;
+  width: 56px;
+  height: 140px;
+  left: 692px;
+  top: 1474px;
+}
+footer .main-component-2 .vertical-line-2 {
+  border: 0.5px solid rgba(135, 135, 157, 0.25);
+  width: 0;
+  height: 6rem;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  left: 48.21%;
+  right: 50%;
+  top: 0%;
+  bottom: 40%;
+}
+footer .main-component-2 .main-btn button {
+  display: inline-flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  padding: 1.2rem;
+  box-sizing: border-box;
+  border-radius: 50px;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  background-color: #fafafa;
+  font-size: 16px;
+  font-weight: 900;
+  color: #86869c;
+  font-family: "Red Hat Display", sans-serif;
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  left: 0px;
+  top: 84px;
 }
 footer .footer-content {
+  background: url(../assets/desktop/image-footer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+footer .footer-content .footer-details {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 1rem;
-  margin: 3rem 4rem;
+  padding: 1rem 3rem;
+  margin: 5rem 5rem;
   color: #fafafa;
 }
-footer .footer-content h2 {
+footer .footer-content .footer-details h2 {
   font-size: 40px;
   line-height: 44px;
 }
-footer .footer-content p {
-  padding-left: 8rem;
-  padding-right: 2rem;
+footer .footer-content .footer-details p {
+  padding-left: 5rem;
+  padding-right: 3rem;
+  font-size: 18px;
+  line-height: 26px;
+  width: 350px;
 }
-footer .footer-content button {
+footer .footer-content .footer-details button {
   padding: 1.2rem;
   border-radius: 40px;
   border: none;
@@ -222,16 +228,24 @@ footer .footer-content button {
   font-weight: 900;
   margin-left: 1.5rem;
 }
-footer .footer-content .btn-footer {
+footer .footer-content .footer-details .btn-footer {
   font-size: 16px;
-  width: 250px;
+  width: 195px;
   background-color: #845eb0;
 }
-footer .footer-content .btn-footer span {
+footer .footer-content .footer-details .btn-footer span {
   color: #d9b8ff;
 }
-footer .footer-content .btn-footer:hover {
+footer .footer-content .footer-details .btn-footer:hover {
   background-color: #b18ddd;
+}
+footer:before {
+  content: "";
+  width: 100%;
+  height: 308px;
+  position: absolute;
+  background-color: #4d96a8;
+  opacity: 0.9;
 }
 
 * {
