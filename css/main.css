@@ -76,5 +76,46 @@ main .main-content p {
   line-height: 26px;
   color: #86869c;
 }
+main .main-component-2 {
+  position: absolute;
+  width: 56px;
+  height: 140px;
+  left: 692px;
+  top: 1474px;
+}
+main .main-component-2 .vertical-line-2 {
+  border: 0.5px solid rgba(135, 135, 157, 0.25);
+  width: 0;
+  height: 6rem;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  left: 48.21%;
+  right: 50%;
+  top: 0%;
+  bottom: 40%;
+}
+main .main-component-2 .main-btn-2 button {
+  display: inline-flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  padding: 1.2rem;
+  box-sizing: border-box;
+  border-radius: 50px;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  background-color: #fafafa;
+  font-size: 16px;
+  font-weight: 900;
+  color: #86869c;
+  font-family: "Red Hat Display", sans-serif;
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  left: 0px;
+  top: 84px;
+  z-index: 3;
+}
 
 /*# sourceMappingURL=main.css.map */
