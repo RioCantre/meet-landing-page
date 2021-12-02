@@ -46,11 +46,11 @@ footer {
                     color: variables.$secondary-color-light;
                 }
                         
+                &:hover {
+                    background-color: variables.$secondary-color-hover;
+                }
+            
             }
-            .btn-footer:hover {
-                background-color: variables.$secondary-color-hover;
-            }
-        
     
         }
 

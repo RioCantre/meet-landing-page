@@ -62,20 +62,22 @@
                 span {
                     color: variables.$primary-color-light;
                 }
+
+                &:hover {
+                    background-color: variables.$primary-color-hover;
+                }
             }
 
-            .btn-1:hover {
-                background-color: variables.$primary-color-hover;
-            }
 
             .btn-2 {
                 width: 140px;
                 background-color: variables.$secondary-color;
+                
+                &:hover {
+                    background-color: variables.$secondary-color-hover;
+                }
             }
 
-            .btn-2:hover {
-                background-color: variables.$secondary-color-hover;
-            }
         }
     }
 }
