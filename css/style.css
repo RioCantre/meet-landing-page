@@ -1,7 +1,7 @@
 header img {
   display: block;
   margin: auto;
-  padding: 5.5rem;
+  padding: 3rem;
 }
 
 .hero {
@@ -9,6 +9,20 @@ header img {
 }
 .hero .hero-image-1 img {
   width: 100%;
+  padding: 1rem 0;
+}
+.hero .hero-content h1 {
+  font-size: 40px;
+  color: #28283e;
+  font-weight: 900;
+  padding: 1rem;
+}
+.hero .hero-content p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #86869c;
+  padding: 0 3.8rem;
 }
 .hero .hero-image-2 img {
   display: none;

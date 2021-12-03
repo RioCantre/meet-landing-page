@@ -5,10 +5,24 @@
 
     .hero-image-1 img {
         width: 100%;
+        padding: 1rem 0;
     }
 
     .hero-content {
-        
+        h1 {
+            font-size: 40px;
+            color: variables.$font-color-dark;
+            font-weight: variables.$font-weight-1;
+            padding: 1rem;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: variables.$font-weight-3;
+            color: variables.$font-color-light;
+            padding: 0 3.8rem;
+        }
     }
 
     .hero-image-2 img {
