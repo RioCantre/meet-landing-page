@@ -30,7 +30,7 @@
             margin: 1rem;
 
             .btn-1 {
-                padding: 1.3rem;
+                padding: 1.2rem;
                 width: 210px;
                 margin: auto;
                 border-radius: 50px;
@@ -41,6 +41,7 @@
                 font-size: 16px;
                 line-height: 26px;
                 font-weight: variables.$font-weight-1;
+                cursor: pointer;
 
                 span {
                     color: variables.$primary-color-light;
@@ -62,6 +63,7 @@
                 color: variables.$background-color;
                 font-size: 16px;
                 font-weight: variables.$font-weight-1;
+                cursor: pointer;
 
                 &:hover {
                     background-color: variables.$secondary-color-hover;

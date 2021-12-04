@@ -7,6 +7,9 @@ header img {
 main {
   text-align: center;
 }
+main .main-images {
+  margin-top: 2rem;
+}
 main .main-images img {
   width: 151px;
   border-radius: 8px;
@@ -14,7 +17,6 @@ main .main-images img {
   justify-content: center;
   align-items: center;
   margin: 0.6rem;
-  margin-top: 2rem;
 }
 main .main-content h3 {
   color: #4d96a8;
@@ -23,7 +25,7 @@ main .main-content h3 {
   font-size: 16px;
   line-height: 26px;
   font-weight: 900;
-  margin: 1.5rem;
+  margin: 2.5rem;
 }
 main .main-content h2 {
   font-size: 32px;
@@ -66,7 +68,7 @@ main .main-content p {
   margin: 1rem;
 }
 .hero .hero-content .hero-btn .btn-1 {
-  padding: 1.3rem;
+  padding: 1.2rem;
   width: 210px;
   margin: auto;
   border-radius: 50px;
@@ -77,6 +79,7 @@ main .main-content p {
   font-size: 16px;
   line-height: 26px;
   font-weight: 900;
+  cursor: pointer;
 }
 .hero .hero-content .hero-btn .btn-1 span {
   color: #90e4f9;
@@ -95,12 +98,52 @@ main .main-content p {
   color: #fafafa;
   font-size: 16px;
   font-weight: 900;
+  cursor: pointer;
 }
 .hero .hero-content .hero-btn .btn-2:hover {
   background-color: #b18ddd;
 }
 .hero .hero-image-2 img {
   display: none;
+}
+
+footer {
+  text-align: center;
+  background-color: #4d96a8;
+  color: #fafafa;
+  padding: 2rem;
+}
+footer .footer-details {
+  margin: 3rem 0;
+}
+footer .footer-details h2 {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 900;
+}
+footer .footer-details p {
+  padding: 2.5rem;
+  font-size: 18px;
+  line-height: 26px;
+}
+footer .footer-details .btn-footer {
+  padding: 1.3rem;
+  width: 200px;
+  margin: auto;
+  border-radius: 50px;
+  margin: auto;
+  border: none;
+  background-color: #845eb0;
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+}
+footer .footer-details .btn-footer span {
+  color: #d9b8ff;
+}
+footer .footer-details .btn-footer:hover {
+  background-color: #b18ddd;
 }
 
 * {

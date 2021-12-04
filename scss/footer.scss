@@ -1,0 +1,49 @@
+
+@use 'variables';
+
+footer {
+    text-align: center;
+    background-color: variables.$primary-color;
+    color: variables.$background-color;
+    padding: 2rem;
+
+    .footer-details {
+        margin: 3rem 0;
+
+        h2 {
+            font-size: 32px;
+            line-height: 36px;
+            font-weight: variables.$font-weight-1;
+        }
+
+        p {
+            padding: 2.5rem;
+            font-size: 18px;
+            line-height: 26px;
+        }
+
+
+        .btn-footer {
+            padding: 1.3rem;
+            width: 200px;
+            margin: auto;
+            border-radius: 50px;
+            margin: auto;
+            border: none;
+            background-color: variables.$secondary-color;
+            color: variables.$background-color;
+            font-size: 16px;
+            font-weight: variables.$font-weight-1;
+            cursor: pointer;
+
+            span {
+                color: variables.$secondary-color-light;
+            }
+
+            &:hover {
+                background-color: variables.$secondary-color-hover;
+            }
+        }
+    }
+
+}
