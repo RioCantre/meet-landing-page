@@ -18,6 +18,45 @@
   color: #86869c;
   padding: 0 3.8rem;
 }
+.hero .hero-content .hero-btn {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.hero .hero-content .hero-btn .btn-1 {
+  padding: 1.3rem;
+  width: 210px;
+  margin: auto;
+  border-radius: 50px;
+  border: none;
+  background: #4d96a8;
+  color: #fafafa;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 900;
+}
+.hero .hero-content .hero-btn .btn-1 span {
+  color: #90e4f9;
+}
+.hero .hero-content .hero-btn .btn-1:hover {
+  background-color: #72c1d5;
+}
+.hero .hero-content .hero-btn .btn-2 {
+  padding: 1.3rem;
+  width: 150px;
+  margin: auto;
+  border-radius: 50px;
+  margin: auto;
+  border: none;
+  background-color: #845eb0;
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: 900;
+}
+.hero .hero-content .hero-btn .btn-2:hover {
+  background-color: #b18ddd;
+}
 .hero .hero-image-2 img {
   display: none;
 }
