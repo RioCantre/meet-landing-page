@@ -21,7 +21,7 @@
 .hero .hero-content .hero-btn {
   display: flex;
   flex-direction: column;
-  margin: 1rem;
+  margin: 2rem;
 }
 .hero .hero-content .hero-btn .btn-1 {
   padding: 1.2rem;

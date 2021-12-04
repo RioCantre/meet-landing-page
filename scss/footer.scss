@@ -6,6 +6,7 @@ footer {
     background-color: variables.$primary-color;
     color: variables.$background-color;
     padding: 2rem;
+    margin-top: 8.5rem;
 
     .footer-details {
         margin: 3rem 0;
@@ -17,14 +18,14 @@ footer {
         }
 
         p {
-            padding: 2.5rem;
+            padding: 2rem;
             font-size: 18px;
             line-height: 26px;
         }
 
 
         .btn-footer {
-            padding: 1.3rem;
+            padding: 1.2rem;
             width: 200px;
             margin: auto;
             border-radius: 50px;

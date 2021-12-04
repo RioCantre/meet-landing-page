@@ -2,6 +2,47 @@
 
 main {
     text-align: center;
+
+    .main-component {
+        margin-top: 300px;
+
+        .vertical-line {
+            border: 0.5px solid variables.$border-color;
+            position: absolute;
+            left: 50%;
+            top: 830px;
+            width: 0;
+            height: 6rem;
+
+            mix-blend-mode: normal;
+            opacity: 1;
+        }
+
+        .main-btn {
+            button {
+                display: inline-flex;
+                justify-content: center;
+                margin: auto;
+                align-items: center;
+                text-align: center;
+                padding: 1.2rem;
+                box-sizing: border-box;
+                border-radius: 50px;    
+                border: 1px solid variables.$border-color;
+                background-color: variables.$background-color;
+                font-size: 16px;
+                font-weight: variables.$font-weight-1;
+                color: variables.$font-color-light;
+                font-family: variables.$main-font;
+                position: absolute;
+                width: 56px;
+                height: 56px;
+                left: 44%;
+                top: 920px;
+            }
+        }
+
+    }
     
     .main-images  {
         margin-top: 2rem;
@@ -23,7 +64,9 @@ main {
             font-size: 16px;
             line-height: 26px;
             font-weight: variables.$font-weight-1;
-            margin: 2.5rem;
+            padding-top: 1rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1.5rem;
         }
 
         h2 {
@@ -36,10 +79,58 @@ main {
 
         p {
             color: variables.$font-color-light;
-            padding: 3rem 3.9rem;
+            padding: 2.2rem 3.9rem;
             font-size: 16px;
             line-height: 26px;
             font-weight: variables.$font-weight-3;
         }
     }
+
+    .main-component-2 {
+        position: absolute;
+        width: 56px;
+        height: 140px;
+        left: 45%;
+        top: 1775px;
+
+        .vertical-line-2 {
+            border: 0.5px solid variables.$border-color;
+            width: 0;
+            height: 6rem;
+
+            mix-blend-mode: normal;
+            opacity: 1;
+            position: absolute;
+            right: 50%;
+            top: -22%;
+            bottom: 0.5%;
+        }
+
+        .main-btn-2 {
+            button {
+                display: inline-flex;
+                justify-content: center;
+                margin: auto;
+                align-items: center;
+                text-align: center;
+                padding: 1.2rem;
+                box-sizing: border-box;
+                border-radius: 50px;    
+                border: 1px solid variables.$border-color;
+                background-color: variables.$background-color;
+                font-size: 16px;
+                font-weight: variables.$font-weight-1;
+                color: variables.$font-color-light;
+                font-family: variables.$main-font;
+                position: absolute;
+                width: 56px;
+                height: 56px;
+                left: 0px;
+                top: 45%;
+                bottom: 20%;
+                display: hidden;
+            }
+        }
+
+    }   
 }
