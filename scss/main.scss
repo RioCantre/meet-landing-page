@@ -6,16 +6,32 @@ main {
     .main-component {
         margin-top: 300px;
 
+
         .vertical-line {
             border: 0.5px solid variables.$border-color;
             position: absolute;
-            left: 50%;
+            left: 225px;
             top: 830px;
             width: 0;
             height: 6rem;
 
             mix-blend-mode: normal;
             opacity: 1;
+
+            @media screen and (min-width: 515px) {
+                left: 255px;
+
+                @media screen and (max-width: 705px) {
+                    left: 350px;
+
+                    @media screen and (max-width: 761px) {
+                        left: 250px;
+                    }
+                }
+                
+            }
+            
+
         }
 
         .main-btn {
@@ -37,8 +53,21 @@ main {
                 position: absolute;
                 width: 56px;
                 height: 56px;
-                left: 44%;
+                left: 197px;
                 top: 920px;
+
+                @media screen and (min-width: 515px) {
+                    left: 230px;
+
+                    @media screen and (max-width: 705px) {
+                        left: 320px;
+
+                        @media(min-width:861px) {
+                            left: 550px;
+                        }
+                    }
+                }
+
             }
         }
 
@@ -90,7 +119,7 @@ main {
         position: absolute;
         width: 56px;
         height: 140px;
-        left: 45%;
+        left: 220px;
         top: 1775px;
 
         .vertical-line-2 {
@@ -101,9 +130,19 @@ main {
             mix-blend-mode: normal;
             opacity: 1;
             position: absolute;
-            right: 50%;
-            top: -22%;
-            bottom: 0.5%;
+            right: 48px;
+            top: -35px;
+            bottom: 100px;
+
+            @media screen and (min-width: 515px){
+                top: -45px;
+                right: 25px;
+
+                @media screen and (max-width: 705px) {
+                    top: -210px;
+                    right: -80px;
+                }
+            }
         }
 
         .main-btn-2 {
@@ -125,10 +164,20 @@ main {
                 position: absolute;
                 width: 56px;
                 height: 56px;
-                left: 0px;
-                top: 45%;
-                bottom: 20%;
-                display: hidden;
+                bottom: 200px;
+                left: -20px;
+                top: 65px;
+
+                @media screen and (min-width: 515px) {
+                    bottom: 300px;
+                    left: 3px;
+                    top: 45px;
+
+                    @media screen and (max-width: 705px) {
+                        left: 105px;
+                        top: -115px;
+                    }
+                }
             }
         }
 

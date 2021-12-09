@@ -29,6 +29,11 @@
             flex-direction: column;
             margin: 2rem;
 
+            @media(min-width:861px) {
+                display: inline-flex;
+                flex-direction: row;
+            }
+
             .btn-1 {
                 padding: 1.2rem;
                 width: 210px;
@@ -68,6 +73,7 @@
                 &:hover {
                     background-color: variables.$secondary-color-hover;
                 }
+
             }
         }
     }
